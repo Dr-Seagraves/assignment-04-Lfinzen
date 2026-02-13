@@ -1,7 +1,7 @@
 # Assignment 04 Interpretation Memo
 
-**Student Name:** [Your Name]
-**Date:** [Submission Date]
+**Student Name:** Luke Finzen
+**Date:** Feb 13th
 **Assignment:** REIT Annual Returns and Predictors (Simple Linear Regression)
 
 ---
@@ -46,15 +46,15 @@ For each model, summarize the key results in the sections below.
 **Dividend Yield (div12m_me):**
 - A 1 percentage point increase in dividend yield (12-month dividends / market equity) is associated with a [slope value] change in annual return.
 - [Your interpretation: Is higher dividend yield associated with higher or lower returns? Why might this be?]
-
+Higher return because the more you put in usually the more you can get out. 
 **Prime Loan Rate (prime_rate):**
 - A 1 percentage point increase in the year-end prime rate is associated with a [slope value] change in annual return.
 - [Your interpretation: Does the evidence suggest REIT returns are sensitive to interest rates? In which direction?]
-
+negative relationship but the modle shows there is little varience
 **FFO to Assets (ffo_at_reit):**
 - A 1 unit increase in FFO/Assets (fundamental performance) is associated with a [slope value] change in annual return.
 - [Your interpretation: Do more profitable REITs (higher FFO/Assets) earn higher returns?]
-
+No i dont think they do. 
 ---
 
 ## 4. Statistical Significance
@@ -65,7 +65,7 @@ For each slope, at the 5% significance level:
 - **ffo_at_reit:** [Significant / Not significant] — [one sentence conclusion]
 
 **Which predictor has the strongest statistical evidence of a relationship with annual returns?** [Your answer]
-
+ff0 has the more statistical evidence 
 ---
 
 ## 5. Model Fit (R-squared)
